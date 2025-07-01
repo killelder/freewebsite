@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "vite build",
+    "build": "vite build && node scripts/build-sitemap.js",
     "dev": "vite",
     "preview": "vite preview",
     "type-check": "vue-tsc --build --force",
