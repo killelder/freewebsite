@@ -56,7 +56,7 @@ export default {
 }
 
 .features {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.05);
   border-radius: 8px;
   padding: 1.5em;
   margin: 2em 0;
@@ -103,7 +103,7 @@ button:hover {
 }
 
 code {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
   padding: 0.25em 0.5em;
   border-radius: 4px;
   font-family: 'Courier New', monospace;
