@@ -27,7 +27,7 @@ coverage
 *.sln
 *.sw?
 
-# Blog posts directory (if we use file-based posts later)
-posts/
-*.md
+# Allow posts directory and markdown files in posts/
+!posts/
+!posts/*.md
 !README.md

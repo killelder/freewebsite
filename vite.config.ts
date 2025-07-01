@@ -13,5 +13,6 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     assetsDir: 'assets'
-  }
+  },
+  assetsInclude: ['**/*.md'] // 確保 markdown 檔案被包含為資源
 })
